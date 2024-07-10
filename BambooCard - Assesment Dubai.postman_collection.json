@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "3ff029e0-6679-4e6c-85b8-aa1195332801",
+		"name": "BambooCard - Assesment Dubai",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8019363"
+	},
+	"item": [
+		{
+			"name": "GetLatestExchangeRateConversions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44330/api/exchange/latest-rate-conversion?amount=5555555555555&from=EUR&to=USD&to=BGN",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44330",
+					"path": [
+						"api",
+						"exchange",
+						"latest-rate-conversion"
+					],
+					"query": [
+						{
+							"key": "amount",
+							"value": "5555555555555"
+						},
+						{
+							"key": "from",
+							"value": "EUR"
+						},
+						{
+							"key": "to",
+							"value": "USD"
+						},
+						{
+							"key": "to",
+							"value": "TRY",
+							"disabled": true
+						},
+						{
+							"key": "to",
+							"value": "PLN",
+							"disabled": true
+						},
+						{
+							"key": "to",
+							"value": "THB",
+							"disabled": true
+						},
+						{
+							"key": "to",
+							"value": "MXN",
+							"disabled": true
+						},
+						{
+							"key": "to",
+							"value": "AUD",
+							"disabled": true
+						},
+						{
+							"key": "to",
+							"value": "BGN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLatestExchangeRates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44330/api/exchange/latest?from=AUD&to=EUR&to=BGN",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44330",
+					"path": [
+						"api",
+						"exchange",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "AUD"
+						},
+						{
+							"key": "to",
+							"value": "EUR"
+						},
+						{
+							"key": "to",
+							"value": "BGN"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetHistoricalExchangeRates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44330/api/Exchange/historical?StartDate=2018-01-01",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44330",
+					"path": [
+						"api",
+						"Exchange",
+						"historical"
+					],
+					"query": [
+						{
+							"key": "StartDate",
+							"value": "2018-01-01"
+						},
+						{
+							"key": "EndDate",
+							"value": "2020-01-23",
+							"disabled": true
+						},
+						{
+							"key": "BaseCurrency",
+							"value": "EUR",
+							"disabled": true
+						},
+						{
+							"key": "PageNumber",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "PageSize",
+							"value": "10",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Franfurter_GetLatestExchangeRateConversions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.frankfurter.app/2024-07-08..2024-07-09",
+					"protocol": "https",
+					"host": [
+						"api",
+						"frankfurter",
+						"app"
+					],
+					"path": [
+						"2024-07-08..2024-07-09"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
