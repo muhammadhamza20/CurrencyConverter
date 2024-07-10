@@ -52,8 +52,8 @@ By default, the application will run on http://localhost:5000. You should see an
   Use dotnet run to start the application from the command line.
 
 # Additional Resources
-- .NET Documentation (https://learn.microsoft.com/en-us/dotnet/)
-- ASP.NET Core Web API Documentation (https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-8.0)
+- [.NET Documentation](https://learn.microsoft.com/en-us/dotnet/)
+- [ASP.NET Core Web API Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-8.0)
 
 # Contributing
 Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
