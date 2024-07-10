@@ -39,7 +39,10 @@ By default, the application will run on http://localhost:5000. You should see an
 ## Project Structure
 - Program.cs: Entry point of the application & Configuration for services and the application's request pipeline.
 - Controllers: Folder containing API controllers.
+- Profiles: AutoMapper profiles.
 - appsettings.json: Configuration file for application settings.
+- Services (Types Client)
+- Unit Tests (Services, Controllers)
 
 ## Debugging
 - Visual Studio
